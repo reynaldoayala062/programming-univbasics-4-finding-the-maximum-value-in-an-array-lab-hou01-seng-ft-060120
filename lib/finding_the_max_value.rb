@@ -5,5 +5,7 @@ def find_max_value(array)
     if max_value < array[count]
       max_value = array[count]
     end
-    count += log
+    count += 1 
+  end
+  max_value
 end
